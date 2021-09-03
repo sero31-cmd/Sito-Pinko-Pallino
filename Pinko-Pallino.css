@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Nav-bar*/
+#nav-bar{
+    border-top:3px solid red ;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100px;
+}
+#nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#nav-bar .container ul {
+    display: flex;
+    padding: right 1rem;
+}
+#nav-bar .container ul li{
+    list-style: none;
+}
+#nav-bar .container ul li a{
+    margin-top: 15px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color:black;
+}
+#nav-bar .container h1{
+    padding-left:1rem;
+}
+#nav-bar ul li .Home-Menu-Contatti:hover,
+#nav-bar ul li a.current{
+    margin-right: 5px;
+    border: red solid 3px;
+    color: black;
+    font-weight: bold;
+}
+/*Section 2*/
+#section2 .container{
+    font-size: 25px;
+    font-family: 'Klee One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#section2 .container h1{
+    color: #333;
+    font-size: 50px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+#section2 .container .h3-a{
+    color: #444;
+    padding-bottom: 7px;
+}
+#section2 .container .btn{
+    text-decoration: none;
+    font-weight: bold;
+    border:2px solid red;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 7px;
+    width: 250px;
+    background: #333;
+    margin-bottom: 30px;
+}
+#section2 .container .btn:hover{
+    border: 2px solid blue;
+    color: white;
+}
+#section2 .container #border-top{
+    border-top: 1px solid #333;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+/*Section 3*/
+#the-menu .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+#the-menu .container a{
+    text-decoration:none;
+    color: rgb(209, 15, 15);
+}
+/*Section 4*/
+#section4{
+    font-family: 'Rajdhani', sans-serif;
+    background: whitesmoke;
+    border-top: 0.5px solid #555;
+    height: 800px;
+}
+#section4 .Titolo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: #333;
+    margin-bottom:30px;
+    margin-top:30px;
+    text-transform: uppercase;
+}
+#section4 .display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section4 .box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#section4 i{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#section4 .box h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #444;
+}
+#section4 .box p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:20px ;
+    
+}
+/*section5*/
+#section5{
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-top: 0.5px solid #555;
+    border-bottom: 1px solid #555;
+}
+#section5 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5 .container h1{
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#section5 .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #555;
+}
+#section5 h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+/*Section 5 parte bassa*/
+#section5 .parte-bassa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 40px;
+}
+#section5 .parte-bassa h4{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#section5 .parte-bassa #Prima-seconda{
+    font-size: 30px;
+    border-top: #555 solid 1px;
+    width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+}
+#section5 .parte-bassa a{
+    text-decoration: none;
+    color: rgb(209, 15, 15);
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+/*Section 6*/
+#section6 .container{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #555;
+    border-bottom: 1px solid red;
+}
+#section6 #box-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    color: #444
+}
+#section6 .box-img{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:40px ;
+}
+#section6  .container #logo-pivetti{
+    width: 180px;
+    height: 100.19px;
+}
+#section6 #logo-campi-protetti{
+    width: 85px;
+    height: 100px;
+}
+#section6 #Logo-viander{
+    width: 143px;
+    height: 100.35px;
+}
+#section6 #logo-Gianni-Negrini{
+    width: 233.47px;
+    height: 97.27px;
+}
+/*footer*/
+#footer .footer-class{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background: rgba(20, 14, 14, 0.972);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: red 3px solid;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    /* float: none; */
+}
+#footer .footer-class h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#footer .footer-class span{
+    color: #666;
+}
+/*La storia*/
+#tutto h1{
+    color: rgb(214, 60, 4);
+}
+#img-storia{
+    padding-top: 10px;
+}
+#tutto{
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+span{
+    color: #444;
+    font-weight: bold;
+}
+/*Section 2*/
+#la-storia{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#la-storia .section2 h1{ 
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+#la-storia .section2 p{
+    font-size: 20px;
+}
+/*section 3*/
+#anno-2003{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#anno-2003 .section3 h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#anno-2003 .section3 p{
+    font-size: 20px;
+}
+#anno-2003 .section3 li{
+    font-size: 20px;
+}
+/* section 4*/
+#anno-2007{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#anno-2007 .section4 h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#anno-2007 .section4 p{
+    font-size: 20px;
+}
+/* section 5 */
+#anno-2012{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#anno-2012 .section5 h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#anno-2012 .section5 p{
+    font-size: 20px;
+}
+#anno-2012 .section5 li{
+    font-size: 20px;
+}
+/* section 6 */
+#anno-2013{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#anno-2013 .section6 h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#anno-2013 .section6 p{
+    font-size: 20px;
+}
+/* section 7 */
+#anno-2018{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#anno-2018 .section7 h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#anno-2018 .section7 p{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+/*Contatti*/
+#contact-form{
+    padding: 2rem 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #f4f4f4;
+    margin-bottom: 50px;
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+#contact-form .container #contatti-email-red{
+    color: red;
+}
+#contact-form p{
+    padding-bottom: 1rem;
+    font-size: 25px;
+}
+#contact-form button {
+    margin-top: 1rem;
+}
+#contact-form .container .btn{
+    color: white;
+    background: red;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 80px;
+}
+#contact-form input, 
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFFF;
+}
+#contact-form label{
+    margin-bottom: 5px;
+    display: block;
+}
+#contact-form textarea{
+    height: 180px;
+}
+#contact-form .checkbox{
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+#contact-form .checkbox p{
+    font-size: 20px;
+}
+#contact-form .checkbox input{
+    width: 10px;
+    height: 10px;
+}
+#contact-form .checkbox a{
+    color: red;
+    text-decoration: none;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: orange;
+}
+/*Privacy policy*/
+#privacy-policy{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding-left: 100px;
+}
+#privacy-policy .container h1{
+    font-size: 30px;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#privacy-policy .container p{
+    font-size: 22px;
+    color: #444;
+    padding-bottom: 6px;
+}
+#privacy-policy .container ul{
+    font-size: 17px;
+    color: #444;
+    padding-bottom: 15px;
+}
+#privacy-policy .container li{
+    padding-bottom: 6px;
+}
+#privacy-policy .container a{
+    color: red;
+    text-decoration: none;
+}
